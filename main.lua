@@ -22,6 +22,7 @@ enterButton.id = "Enter Button"
 local function enterButtonClicked( event )
     -- shows text from the text field
     print( textField.text )
+    display.newText( textField.text, display.contentCenterX, display.contentCenterY + 100, native.systemFont, 72)
 
     return true
 end
