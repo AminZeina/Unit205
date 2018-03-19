@@ -28,3 +28,5 @@ local function enterButtonClicked( event )
 end
 
 enterButton:addEventListener( "touch", enterButtonClicked)
+
+sniping with a tank dunh dunh dunh dunh dunh da 
